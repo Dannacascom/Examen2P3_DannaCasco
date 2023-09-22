@@ -4,8 +4,7 @@ using namespace std;
 
 class Sprint{
 	int id_de_proyecto_relacionado, id_de_sprint;
-	string fecha_de_incio, fecha_de_finalizacion, estado_del_sprint;
-	string nombre_del_sprint;
+	string nombredeSprint,fecha_de_incio, fecha_de_finalizacion, estado_del_sprint;
 
 public: 
 	Sprint();
@@ -13,8 +12,8 @@ public:
 	~Sprint();
 	int getIdSprint();
 	void setIdSprint(int);
-	string getnombre_del_sprint();
-	void nombre_del_sprint(string);
+	string getNameSprint();
+	void setNameSprint(string);
 	string getFechaInicio();
 	void setFechaInicio(string);
 	string getFechaFinalizacion();
