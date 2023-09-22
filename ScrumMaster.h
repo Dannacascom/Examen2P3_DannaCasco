@@ -10,7 +10,10 @@ class ScrumMaster : public Developer{
 	vector<Sprint*> sprints;
 public:
 	ScrumMaster();
-	ScrumMaster(int ,string,int, string,vector<Proyecto>, vector<Sprint>);
+	ScrumMaster(int ,string,int, string,vector<Proyecto*>, vector<Sprint*>);
 	~ScrumMaster();
+	vector<Proyecto*> getVcetorProyectos();
+	vector<Sprint*> getVectorSprints();
+
 };
 

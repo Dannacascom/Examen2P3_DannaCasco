@@ -39,6 +39,9 @@
     <ClCompile Include="SeniorDev.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="JuniorDev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Proyecto.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SeniorDev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JuniorDev.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

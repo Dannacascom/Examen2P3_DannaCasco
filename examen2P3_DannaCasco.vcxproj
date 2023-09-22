@@ -130,6 +130,7 @@
     <ClCompile Include="Developer.cpp" />
     <ClCompile Include="examen2P3_DannaCasco.cpp" />
     <ClCompile Include="Historia_de_Usuario.cpp" />
+    <ClCompile Include="JuniorDev.cpp" />
     <ClCompile Include="Proyecto.cpp" />
     <ClCompile Include="ScrumMaster.cpp" />
     <ClCompile Include="SeniorDev.cpp" />
@@ -139,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="Developer.h" />
     <ClInclude Include="Historia_de_Usuario.h" />
+    <ClInclude Include="JuniorDev.h" />
     <ClInclude Include="Proyecto.h" />
     <ClInclude Include="ScrumMaster.h" />
     <ClInclude Include="SeniorDev.h" />

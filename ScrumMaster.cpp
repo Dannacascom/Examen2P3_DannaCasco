@@ -10,3 +10,11 @@ ScrumMaster::ScrumMaster(int id, string nombreCompleto, int añosExperiencia, str
 
 ScrumMaster::~ScrumMaster(){
 }
+
+vector<Proyecto*> ScrumMaster::getVcetorProyectos(){
+	return proyectos;
+}
+
+vector<Sprint*> ScrumMaster::getVectorSprints(){
+	return sprints;
+}
