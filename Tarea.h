@@ -7,7 +7,7 @@ class Tarea{
 	string descripcion_de_la_tarea, estado_de_la_tarea;
 public :
 	Tarea();
-	Tarea(int, string, string, int);
+	Tarea(int, string, string);
 	~Tarea();
 	int getIdTarea();
 	void setIdTarea(int);

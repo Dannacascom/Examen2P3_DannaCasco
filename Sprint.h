@@ -8,7 +8,7 @@ class Sprint{
 
 public: 
 	Sprint();
-	Sprint(int, string, string, string, string, int);
+	Sprint(int, string, string, string, string);
 	~Sprint();
 	int getIdSprint();
 	void setIdSprint(int);

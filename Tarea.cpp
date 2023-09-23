@@ -3,7 +3,7 @@
 Tarea::Tarea(){
 }
 
-Tarea::Tarea(int id_de_tarea, string descripcion_de_la_tarea, string estado_de_la_tarea, int id_de_historia_de_usuario_relacionada){
+Tarea::Tarea(int id_de_tarea, string descripcion_de_la_tarea, string estado_de_la_tarea){
 	this->id_de_tarea = id_de_tarea;
 	this->descripcion_de_la_tarea = descripcion_de_la_tarea;
 	this->estado_de_la_tarea = estado_de_la_tarea;

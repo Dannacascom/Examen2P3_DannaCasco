@@ -6,14 +6,14 @@
 using namespace std;
 
 class ScrumMaster : public Developer{
-	vector<Proyecto*> proyectos;
-	vector<Sprint*> sprints;
+	vector<string*> proyectos;
+	vector<string*> sprints;
 public:
 	ScrumMaster();
-	ScrumMaster(int ,string,int, string,vector<Proyecto*>, vector<Sprint*>);
+	ScrumMaster(int ,string,int, string,vector<int*>, vector<int*>);
 	~ScrumMaster();
-	vector<Proyecto*> getVcetorProyectos();
-	vector<Sprint*> getVectorSprints();
+	vector<string*> getVcetorProyectos();
+	vector<string*> getVectorSprints();
 
 };
 

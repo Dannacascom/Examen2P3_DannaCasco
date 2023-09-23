@@ -3,7 +3,7 @@
 Sprint::Sprint(){
 }
 
-Sprint::Sprint(int id_del_sprint, string nombredeSprint, string fecha_de_inicio, string fecha_de_finalizacion, string estado_del_sprint, int id_de_proyecto_relacionado){
+Sprint::Sprint(int id_del_sprint, string nombredeSprint, string fecha_de_inicio, string fecha_de_finalizacion, string estado_del_sprint){
 	this->id_de_sprint = id_de_sprint;
 	this->fecha_de_incio = fecha_de_inicio;
 	this->fecha_de_finalizacion = fecha_de_finalizacion;

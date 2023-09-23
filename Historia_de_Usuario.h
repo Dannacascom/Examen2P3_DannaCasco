@@ -7,7 +7,7 @@ class Historia_de_Usuario{
 	string titulo_de_la_historia, prioridad;
 public:
 	Historia_de_Usuario();
-	Historia_de_Usuario(int, string, int, int, int);
+	Historia_de_Usuario(int, string, string, int);
 	~Historia_de_Usuario();
 	int getIdHistoria();
 	void setIdHistoria(int);

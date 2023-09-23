@@ -3,12 +3,11 @@
 Historia_de_Usuario::Historia_de_Usuario(){
 }
 
-Historia_de_Usuario::Historia_de_Usuario(int id_historia_de_usuario, string titulo_de_la_historia, int prioridad, int tiempo_estimado, int id_de_sprint_relacionado) {
+Historia_de_Usuario::Historia_de_Usuario(int id_historia_de_usuario, string titulo_de_la_historia, int prioridad, int tiempo_estimado) {
     this->id_historia_de_usuario = id_historia_de_usuario;
     this->titulo_de_la_historia = titulo_de_la_historia;
     this->prioridad = prioridad;
     this->tiempo_estimado = tiempo_estimado;
-    this->id_de_sprint_relacionado = id_de_sprint_relacionado;
 }
 
 Historia_de_Usuario::~Historia_de_Usuario(){

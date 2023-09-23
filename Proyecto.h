@@ -9,7 +9,7 @@ class Proyecto{
 	vector<string*>esquipo_de_desarollo;
 public:
 	Proyecto();
-	Proyecto(int,string, string, string, string,vector<string*>);
+	Proyecto(int,string, string, string, string);
 	~Proyecto();
 	int getIdProyecto();
 	void setIdProyecto(int);

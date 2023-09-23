@@ -3,7 +3,7 @@
 Proyecto::Proyecto(){
 }
 
-Proyecto::Proyecto(int id_de_proyecto, string nombre_del_proyecto, string fecha_de_inicio, string fecha_de_finalizacion, string estado_del_proyecto, vector<string*> esquipo_de_desarollo){
+Proyecto::Proyecto(int id_de_proyecto, string nombre_del_proyecto, string fecha_de_inicio, string fecha_de_finalizacion, string estado_del_proyecto){
     this->nombre_del_proyecto = nombre_del_proyecto;
     this->fecha_de_inicio = fecha_de_inicio;
     this->fecha_de_finalizacion = fecha_de_finalizacion;
